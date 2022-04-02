@@ -1,0 +1,35 @@
+.title{
+    color: red;
+}
+.inputTitle{
+    margin-right: 10px;
+}
+/* .inputBody{
+    border: 1px solid greenyellow;
+} */
+.addBtn{
+    color: rgb(255, 255, 255);
+}
+.todoItem,.container{
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+.btn{
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid green;
+    margin-left:100px;
+    margin-top: 10px;
+}
+.btn>*{
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    border: 1px solid red;
+    
+}
+.btn>:nth-child(2){
+    margin-left: 20px;
+}
